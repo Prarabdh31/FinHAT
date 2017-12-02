@@ -1,0 +1,273 @@
+{
+  "general": {
+    "userAgentAdd": "gonative",
+    "useWKWebView": true,
+    "enableWindowOpen": true,
+    "useCrosswalkWebView": false,
+    "forceScreenOrientation": null,
+    "initialUrl": "http://www.cprarabdh.wixsite.com/finhat",
+    "appName": "FinHAT",
+    "androidPackageName": "com.finhat.prarabdh",
+    "androidVersionName": "1.0.0"
+  },
+  "navigation": {
+    "androidPullToRefresh": false,
+    "iosPullToRefresh": true,
+    "androidShowRefreshButton": false,
+    "iosShowRefreshButton": false,
+    "deepLinkDomains": [],
+    "tabNavigation": {
+      "tabSelectionConfig": [
+        {
+          "id": "1",
+          "regex": ""
+        }
+      ],
+      "tabMenus": [
+        {
+          "id": "1",
+          "items": [
+            {}
+          ]
+        }
+      ],
+      "active": false
+    },
+    "sidebarNavigation": {
+      "menus": [
+        {
+          "name": "default",
+          "items": [
+            {
+              "url": "//cprarabdh.wixsite.com/finhat",
+              "label": "FinHAT",
+              "subLinks": []
+            },
+            {
+              "url": "https://cprarabdh.wixsite.com/finhat/application",
+              "label": "App Details",
+              "subLinks": []
+            },
+            {
+              "url": "https://cprarabdh.wixsite.com/finhat/about",
+              "label": "About",
+              "subLinks": []
+            },
+            {
+              "label": "Development",
+              "url": "https://cprarabdh.wixsite.com/finhat/developement"
+            }
+          ],
+          "active": true
+        },
+        {
+          "name": "loggedIn",
+          "items": [
+            {
+              "url": "http://www.facebook.com/wix",
+              "label": "",
+              "subLinks": []
+            },
+            {
+              "url": "http://www.twitter.com/wix",
+              "label": "",
+              "subLinks": []
+            },
+            {
+              "url": "https://plus.google.com/117167403531518744294/posts",
+              "label": "",
+              "subLinks": []
+            }
+          ],
+          "active": false
+        }
+      ],
+      "menuSelectionConfig": {
+        "testURL": null,
+        "redirectLocations": [
+          {
+            "regex": null,
+            "menuName": "default",
+            "loggedIn": false
+          },
+          {
+            "regex": ".*",
+            "menuName": "default",
+            "loggedIn": true
+          }
+        ]
+      }
+    },
+    "navigationLevels": {
+      "levels": [
+        {}
+      ]
+    },
+    "navigationTitles": {
+      "titles": [
+        {}
+      ]
+    },
+    "regexInternalExternal": {
+      "rules": [
+        {
+          "regex": "^(?!https?://).*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/login.php.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/dialog.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v1\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/oauth.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/v2\\.0/.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com/checkpoint.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*facebook\\.com.*",
+          "internal": true
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*plus\\.google\\.com/share.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*twitter\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*instagram\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://maps\\.google\\.com.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*linkedin\\.com/.*",
+          "internal": false
+        },
+        {
+          "regex": "https?://([-\\w]+\\.)*google\\.com/maps/search/.*",
+          "internal": false
+        },
+        {
+          "regex": ".*",
+          "internal": true
+        }
+      ]
+    },
+    "toolbarNavigation": null,
+    "customUrlScheme": "finhat"
+  },
+  "styling": {
+    "icon": "https://gonativeio.s3.amazonaws.com/uploads/qqgcvzh3jpgby_1512248267101.png",
+    "iosHeaderImage": "images/logo1.png",
+    "showActionBar": true,
+    "showNavigationBar": true,
+    "iosSidebarFont": "Default",
+    "androidHideTitleInActionBar": false,
+    "navigationTitleImage": false,
+    "iosTheme": "light",
+    "androidTheme": "light",
+    "menuAnimationDuration": 0.15,
+    "transitionInteractiveDelayMax": 0.2,
+    "hideWebviewAlpha": 0.5,
+    "disableAnimations": false,
+    "androidShowSplash": true,
+    "androidSidebarBackgroundColor": "#FFFFFF",
+    "androidSidebarForegroundColor": "#777777",
+    "androidActionBarBackgroundColor": "#334ABD",
+    "androidActionBarForegroundColor": "#05FFE6",
+    "androidPullToRefreshColor": "#401B77",
+    "androidAccentColor": "#000000",
+    "androidSidebarSeparatorColor": "#585858",
+    "androidTabBarBackgroundColor": "#000000",
+    "androidTabBarTextColor": "#FFFFFF",
+    "androidTabBarIndicatorColor": "#454BFF",
+    "iosTitleColor": "#333333",
+    "iosTintColor": "#0091fe",
+    "iosSidebarTextColor": "#333333",
+    "androidLaunchImages": {},
+    "iosLaunchImages": {},
+    "androidStatusBarBackgroundColor": "#061d90",
+    "forceViewportWidth": 2
+  },
+  "forms": {
+    "search": {},
+    "loginConfig": {
+      "formSelector": null,
+      "loginIsFirstPage": false
+    },
+    "signupConfig": {
+      "active": false,
+      "formSelector": null
+    }
+  },
+  "permissions": {
+    "usesGeolocation": true,
+    "androidDownloadToPublicStorage": true,
+    "enableWebRTC": true
+  },
+  "performance": {
+    "webviewPools": [
+      {
+        "urls": [
+          {
+            "disown": "reload"
+          }
+        ]
+      }
+    ]
+  },
+  "publishing": {},
+  "services": {
+    "push": {
+      "active": false
+    },
+    "analytics": {
+      "active": false
+    },
+    "parse": {
+      "active": false,
+      "pushEnabled": false
+    },
+    "facebook": {
+      "active": true,
+      "appId": "1998717710406914",
+      "displayName": "Prarabdh Chaturvedi"
+    },
+    "oneSignal": {
+      "active": false,
+      "notificationExtension": false
+    },
+    "registration": {
+      "active": false,
+      "endpoints": [
+        {
+          "url": null,
+          "urlRegex": null,
+          "dataType": [
+            "parse",
+            "oneSignal"
+          ]
+        }
+      ]
+    }
+  }
+}
